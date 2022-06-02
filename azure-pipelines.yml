@@ -39,8 +39,8 @@ steps:
       !**\*TestAdapter.dll
       !**\obj\**
     searchFolder: '$(System.DefaultWorkingDirectory)'
-    runInParallel: true
-    runTestsInIsolation: false
+    runInParallel: false
+    runTestsInIsolation: true
     codeCoverageEnabled: true
     failOnMinTestsNotRun: true
     diagnosticsEnabled: true
